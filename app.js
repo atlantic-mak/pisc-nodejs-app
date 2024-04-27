@@ -13,7 +13,7 @@ app.get('/search', (req, res) => {
   const sql = `SELECT * FROM products WHERE name = '${searchTerm}'`; // Vulnerável a SQL Injection
   // Executa a consulta SQL...
 });  
-
+   
   
 // Rota vulnerável a XSS (Cross-Site Scripting)
 app.get('/user/:name', (req, res) => {
