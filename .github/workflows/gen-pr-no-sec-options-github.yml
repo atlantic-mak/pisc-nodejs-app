@@ -8,6 +8,10 @@ on:
 
 jobs:
   scan:
+    permissions:
+      issues: write
+      pull_requests: write
+
     name: Scan
     runs-on: ubuntu-20.04
     steps:

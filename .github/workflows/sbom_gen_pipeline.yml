@@ -9,7 +9,7 @@ permissions:
 
 jobs:
   scan:
-    name: Check
+    name: Scan
     runs-on: ubuntu-20.04
     steps:
       - name: Checkout code
